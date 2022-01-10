@@ -17,7 +17,9 @@
 	font-weight: bold;
 	}
     h2, h3, h4, h5, h6 { font-family: 'Roboto Condensed', sans-serif;}
-  
+  bld {font-family: 'Roboto Condensed', sans-serif; 
+		font-style: italic;
+	  font-weight: bold;}
     /* colors */
     body { background-color: #000306; color: white;}
     .container { background-color: #3F4038; border-color: #5B3E38}
@@ -73,8 +75,11 @@
       
       <div id="error"></div>
 
+	    <h3>How it works</h3>
+	    <p> Just enter the URL you want to visit in the text box below and hit </p><bld>Go!</bld>
       <form action="no-js" method="get" id="unblocker-form">
-        <p>
+     
+	<p>
           URL: 
           <input type="text" id="url" name="url" autofocus="autofocus" />
           <input type="submit" value="Go" />
